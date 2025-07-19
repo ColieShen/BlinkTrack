@@ -1,0 +1,44 @@
+foreground_image_dataset_path: 
+  train: ['./coco/train2014']
+  test: ['./coco/val2014']
+background_image_dataset_path: './flickr30k-images'
+
+output_path: './output'
+dataset_mode: 'train'
+seq_range: [0, 0]
+visualize: False
+
+gen_rgb: True # TODO
+gen_event: True
+
+image_size: [480, 640]  # H, W
+
+keyframe_num: 3
+frame_per_keyframe: 25
+real_time_between_frame: 0.01
+event_per_frame: 10 # should be 40
+
+foreground_image_num: [3, 5]
+background_image_num: [1, 1]
+
+foreground_image_outbound_threshold: 50
+background_image_repeat: [5, 5]
+
+# between each keyframe
+foreground_init_scale: [0.3, 0.6]
+foreground_scale: [0.8, 1.2]
+foreground_rotation: [-20, 20]  # degree
+foreground_translation: [0, 350]
+
+background_init_scale: [1, 1.2]
+background_scale: [0.8, 1.2]
+background_rotation: [-10, 10]  # degree
+background_translation: [0, 40]
+
+animation_mode: 'cubic_spline'  # 'linear', 'cubic_spline'
+
+track_file_name: 'shitomasi_custom_v5'
+max_track: 48
+
+event_simulator_name: 'voltmeter'
+
