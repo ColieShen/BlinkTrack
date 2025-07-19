@@ -1,0 +1,7 @@
+name: blinktrack
+
+_target_: model.blinktrack_event.BlinkTrack_Event
+patch_size: 31
+feature_dim: 384
+defaults:
+  - /optim/adam.yaml@optimizer

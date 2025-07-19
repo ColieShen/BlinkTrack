@@ -1,0 +1,51 @@
+hydra:
+  run:
+    dir: outputs/eval_${eval_dataset}/${now:%Y-%m-%d_%H%M%S}
+
+eval_dataset_path: <path>/deep_ev_tracker_data
+running_locally: False
+
+use_event: True
+# use_event: False
+use_rgb: True
+# use_rgb: False
+use_kalman: True
+# use_kalman: False
+
+event_weights_path: <path>/e.ckpt
+image_weights_path: <path>/i.pth
+
+track_name: shitomasi_custom_v5
+representation: time_surfaces_v2_5
+image_folder: images_corrected
+event_folder: events
+patch_size: 31
+visualize: False
+one_track: False
+rgb_fps: None
+dt_track_vis: 10
+
+eval_dataset: both
+# eval_dataset: ec
+# eval_dataset: eds
+
+# only set in vis dataset
+ref_frame_idx: none
+frame_length: 25
+
+rgb_model: blinktrack
+
+# Composing nested config with default
+defaults:
+  - data: mf
+  - model: blinktrack
+  - training: supervised_train # [supervised_train, pose_finetuning_train_ec, pose_finetuning_train_eds]
+
+# Pytorch lightning trainer's argument
+trainer:
+  gpus: [0]
+
+
+# dummy cfg
+debug: False
+n_vis: 2

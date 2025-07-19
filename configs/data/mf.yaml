@@ -1,0 +1,21 @@
+name: mf
+
+_target_: loader.loader_multiflow.MFDataModule
+data_dir: <path>
+extra_dir: <path>
+dt: 0.0200
+num_workers: 4
+
+# For tracks
+batch_size: 16
+n_train: 30000
+n_val: 1000
+
+augment: True
+global_mode: False
+mixed_dt: False
+
+force_shuffle: True
+# displacement_augment: 0.0   # anti gt displacement
+# time_augment: 0.7   # augment increase as time go
+# lost_augment: [6, 14, 12, 20]   # [early lost, latest lost, min lost, max lost]

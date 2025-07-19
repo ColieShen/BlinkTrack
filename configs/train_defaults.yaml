@@ -1,0 +1,32 @@
+hydra:
+  run:
+    dir: outputs/train_${model.name}_${data.name}/${now:%Y-%m-%d_%H%M%S}
+
+# Composing nested config with default
+experiment: try
+track_name: shitomasi_custom_v5
+representation: time_surfaces_v2_5
+patch_size: 31
+
+debug: False
+n_vis: 2
+logging: False
+
+wandb_logging: True
+
+eval_freq: 10000
+kalman: False  # if kalman is True, must use model with uncertainty
+
+# Do not forget to set the learning rate for supervised or for pose finetuning in configs/optim/adam.yaml
+defaults:
+  - data: mf # [mf, pose_eds, pose_ec]
+  - model: blinktrack
+  - training: supervised_train # [supervised_train, pose_finetuning_train_ec, pose_finetuning_train_eds]
+
+# Pytorch lightning trainer's argument
+trainer:
+  benchmark: True
+  log_every_n_steps: 10
+  max_epochs: 40000
+  # num_processes: 1
+  num_sanity_val_steps: 1
