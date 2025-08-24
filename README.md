@@ -29,10 +29,16 @@ Event cameras, known for their high temporal resolution and ability to capture a
 
 ## Todo
 
-- [ ] Release the pretrained weights and complete usage guide for BlinkTrack
-- [ ] Release the data generation code and full documentation for MultiTrack
-- [x] Release the MultiTrack dataset
+
 - [x] Release the camera-ready version of the paper and supplementary materials
+- [ ] Release the pretrained weights and complete usage guide for BlinkTrack
+- [x] Release the MultiTrack dataset
+- [x] Release the data generation code of MultiTrack
+- [ ] Release the full documentation of MultiTrack
+- [ ] Release the EC-occ and EDS-occ dataset
+- [ ] Release the data generation code of EC-occ and EDS-occ
+- [ ] Release the full documentation of EC-occ and EDS-occ
+
 
 ## Citation
 
@@ -70,14 +76,14 @@ from asynchronous event data and image data.
 # MultiTrack
 ## Introduction
 ![](./figure/multitrack_pipeline.png)
-MultiTrack is a dataset with color images, events, occluded tracks and visibility status.
+MultiTrack is a dataset with color images, events, occluded tracks, and visibility status.
 ![](./figure/multitrack_example.png)
 
 ---
 
 ## Acknowledgments
 
-Our work is standing on the shoulders of giants. We want to thank the following contributors that our code is based on:
+Our work stands on the shoulders of giants. We want to thank the following contributors for our code is based on:
 
 - Deep-Ev-Tracker
 https://github.com/uzh-rpg/deep_ev_tracker
