@@ -6,9 +6,10 @@
 
 <sup>1</sup> Zhejiang University, <sup>2</sup> XXX -->
 
-[![arXiv](https://img.shields.io/badge/arXiv-<2409.17981>-<COLOR>.svg)](https://arxiv.org/abs/2409.17981)
-<!-- [![Camera Ready Paper](https://img.shields.io/badge/Paper-<CameraReady>-red.svg)](https://)
-[![Camera Ready Paper](https://img.shields.io/badge/Supp-<CameraReady>-blue.svg)](https://) -->
+[![Paper](https://img.shields.io/badge/arXiv-<2409.17981>-A42C25.svg)](https://arxiv.org/abs/2409.17981)
+[![MultiTrack](https://img.shields.io/badge/ModelScope-<MultiTrack>-604DF4.svg)](https://modelscope.cn/datasets/ColieShen/MultiTrack)
+[![MultiTrack](https://img.shields.io/badge/HuggingFace-<MultiTrack>-F8D44E.svg)](https://huggingface.co/datasets/ColieShen/MultiTrack)
+
 
 </div>
 
@@ -23,14 +24,15 @@ Event cameras, known for their high temporal resolution and ability to capture a
 
 ## News
 
+- **_News (2025-08-24)_**: We release the camera-ready version of the paper and supplementary materials! We also release the MultiTrack dataset!
 - **_News (2025-07-19)_**: 🎉🎉🎉 We release the init version of BlinkTrack! Further updates will be available soon!
 
 ## Todo
 
-- [] Release the the camera-ready version of the paper and supplementary materials
-- [] Release the pretrained weights and complete usage guide for BlinkTrack
-- [] Release the data generation code and full documentation for MultiTrack
-- [] Release the MultiTrack dataset
+- [ ] Release the pretrained weights and complete usage guide for BlinkTrack
+- [ ] Release the data generation code and full documentation for MultiTrack
+- [x] Release the MultiTrack dataset
+- [x] Release the camera-ready version of the paper and supplementary materials
 
 ## Citation
 
