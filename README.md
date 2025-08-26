@@ -10,6 +10,8 @@
 [![MultiTrack](https://img.shields.io/badge/ModelScope-<MultiTrack>-604DF4.svg)](https://modelscope.cn/datasets/ColieShen/MultiTrack)
 [![MultiTrack](https://img.shields.io/badge/HuggingFace-<MultiTrack>-F8D44E.svg)](https://huggingface.co/datasets/ColieShen/MultiTrack)
 
+[![EC-occ_EDS-occ](https://img.shields.io/badge/ModelScope-<EC--syn_EDS--syn_EC--occ_EDS--occ>-604DF4.svg)](https://modelscope.cn/datasets/ColieShen/EC-occ_EDS-occ)
+
 
 </div>
 
@@ -24,7 +26,8 @@ Event cameras, known for their high temporal resolution and ability to capture a
 
 ## News
 
-- **_News (2025-08-24)_**: We release the camera-ready version of the paper and supplementary materials! We also release the MultiTrack dataset!
+- **_News (2025-08-26)_**: We release the testing dataset, including EC-syn, EC-occ, EDS-syn, EDS-occ!
+- **_News (2025-08-24)_**: We release the camera-ready version of the paper and supplementary materials! We also release the training dataset, MultiTrack!
 - **_News (2025-07-19)_**: 🎉🎉🎉 We release the init version of BlinkTrack! Further updates will be available soon!
 
 ## Todo
@@ -35,7 +38,7 @@ Event cameras, known for their high temporal resolution and ability to capture a
 - [x] Release the MultiTrack dataset
 - [x] Release the data generation code of MultiTrack
 - [ ] Release the full documentation of MultiTrack
-- [ ] Release the EC-occ and EDS-occ dataset
+- [x] Release the EC-syn, EDS-syn, EC-occ and EDS-occ dataset
 - [ ] Release the data generation code of EC-occ and EDS-occ
 - [ ] Release the full documentation of EC-occ and EDS-occ
 
