@@ -7,6 +7,8 @@
 <sup>1</sup> Zhejiang University, <sup>2</sup> XXX -->
 
 [![Paper](https://img.shields.io/badge/arXiv-<2409.17981>-A42C25.svg)](https://arxiv.org/abs/2409.17981)
+[![Weight](https://img.shields.io/badge/ModelScope-<Weight>-604DF4.svg)](https://modelscope.cn/models/ColieShen/BlinkTrack)
+
 [![MultiTrack](https://img.shields.io/badge/ModelScope-<MultiTrack>-604DF4.svg)](https://modelscope.cn/datasets/ColieShen/MultiTrack)
 [![MultiTrack](https://img.shields.io/badge/HuggingFace-<MultiTrack>-F8D44E.svg)](https://huggingface.co/datasets/ColieShen/MultiTrack)
 
@@ -26,21 +28,23 @@ Event cameras, known for their high temporal resolution and ability to capture a
 
 ## News
 
-- **_News (2025-08-26)_**: We release the testing dataset, including EC-syn, EC-occ, EDS-syn, EDS-occ!
-- **_News (2025-08-24)_**: We release the camera-ready version of the paper and supplementary materials! We also release the training dataset, MultiTrack!
+- **_News (2025-08-27)_**: We release the [pretrained weights](https://modelscope.cn/models/ColieShen/BlinkTrack)!
+- **_News (2025-08-26)_**: We release the testing dataset, including [EC-syn, EC-occ, EDS-syn, EDS-occ](https://modelscope.cn/datasets/ColieShen/EC-occ_EDS-occ)!
+- **_News (2025-08-24)_**: We release the [camera-ready version of the paper and supplementary materials](https://arxiv.org/abs/2409.17981)! We also release the training dataset, [MultiTrack](https://modelscope.cn/datasets/ColieShen/MultiTrack)!
 - **_News (2025-07-19)_**: 🎉🎉🎉 We release the init version of BlinkTrack! Further updates will be available soon!
 
 ## Todo
 
 
 - [x] Release the camera-ready version of the paper and supplementary materials
-- [ ] Release the pretrained weights and complete usage guide for BlinkTrack
+- [x] Release the pretrained weights
+- [ ] Add complete usage guide for BlinkTrack
 - [x] Release the MultiTrack dataset
 - [x] Release the data generation code of MultiTrack
-- [ ] Release the full documentation of MultiTrack
+- [ ] Add the full documentation of MultiTrack
 - [x] Release the EC-syn, EDS-syn, EC-occ and EDS-occ dataset
 - [ ] Release the data generation code of EC-occ and EDS-occ
-- [ ] Release the full documentation of EC-occ and EDS-occ
+- [ ] Add the full documentation of EC-occ and EDS-occ
 
 
 ## Citation
