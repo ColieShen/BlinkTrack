@@ -7,12 +7,15 @@
 <sup>1</sup> Zhejiang University, <sup>2</sup> XXX -->
 
 [![Paper](https://img.shields.io/badge/arXiv-<2409.17981>-A42C25.svg)](https://arxiv.org/abs/2409.17981)
+
 [![Weight](https://img.shields.io/badge/ModelScope-<Weight>-604DF4.svg)](https://modelscope.cn/models/ColieShen/BlinkTrack)
+[![Weight](https://img.shields.io/badge/HuggingFace-<Weight>-F8D44E.svg)](https://huggingface.co/ColieShen/BlinkTrack)
 
 [![MultiTrack](https://img.shields.io/badge/ModelScope-<MultiTrack>-604DF4.svg)](https://modelscope.cn/datasets/ColieShen/MultiTrack)
 [![MultiTrack](https://img.shields.io/badge/HuggingFace-<MultiTrack>-F8D44E.svg)](https://huggingface.co/datasets/ColieShen/MultiTrack)
 
-[![EC-occ_EDS-occ](https://img.shields.io/badge/ModelScope-<EC--syn_EDS--syn_EC--occ_EDS--occ>-604DF4.svg)](https://modelscope.cn/datasets/ColieShen/EC-occ_EDS-occ)
+[![EC-occ_EDS-occ](https://img.shields.io/badge/ModelScope-<EC--occ_EDS--occ>-604DF4.svg)](https://modelscope.cn/datasets/ColieShen/EC-occ_EDS-occ)
+[![EC-occ_EDS-occ](https://img.shields.io/badge/HuggingFace-<EC--occ_EDS--occ>-F8D44E.svg)](https://huggingface.co/datasets/ColieShen/EC-occ_EDS-occ)
 
 
 </div>
